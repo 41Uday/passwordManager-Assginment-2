@@ -1,0 +1,418 @@
+.bg-container {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.img-1 {
+  width: 150px;
+}
+
+.card-1 {
+  height: 350px;
+  width: 90%;
+  background-color: #5763a5;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  margin-top: 20px;
+  padding-right: 100px;
+}
+
+.img-2 {
+  width: 300px;
+  height: 300px;
+}
+
+.card-2 {
+  height: 250px;
+  width: 450px;
+  background-color: #454f84;
+  border-radius: 12px;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+.card-3 {
+  min-height: 300px;
+  width: 90%;
+  background-color: #5763a5;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding-right: 100px;
+  padding-left: 50px;
+}
+
+.inner-card-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.head-card-3 {
+  font-size: 15px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.para-card-3 {
+  height: 18px;
+  width: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.double-inner-card-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-3-search {
+  height: 25px;
+  outline: none;
+}
+
+.card-3-butt {
+  height: 23px;
+  width: 30px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 0;
+}
+
+.card-3-img-2 {
+  width: 15px;
+}
+
+.horizontal {
+  color: white;
+  font-size: 1px;
+}
+
+.card-2-head-1 {
+  font-size: 21px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+.card-2-cont-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-2-img-1 {
+  width: 20px;
+}
+
+.card-2-cont-1 {
+  height: 30px;
+  width: 30px;
+  background-color: #f8fafc;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #94a3b8;
+}
+
+.inner-card-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.website {
+  height: 30px;
+  width: 300px;
+  background-color: #f8fafc;
+  outline: none;
+  border: 0;
+}
+
+.card-2-butt {
+  height: 30px;
+  width: 90px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  font-weight: 'Roboto';
+  color: white;
+  border: 0;
+}
+
+.card-2-butt-cont {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+
+.l-img {
+  width: 180px;
+}
+
+.card-3-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.l-3-head {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: white;
+  margin-left: 40px;
+}
+
+.n-pass {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.checkbox {
+  color: white;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+  }
+  .img-1 {
+    width: 100px;
+  }
+  .card-1 {
+    height: 450px;
+    width: 90%;
+    background-color: #5763a5;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .img-2 {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+  }
+
+  .card-2 {
+    height: 200px;
+    width: 100%;
+    background-color: #454f84;
+    border-radius: 12px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 25px;
+    order: 10;
+  }
+
+  .card-2-cont-1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-3 {
+    min-height: 200px;
+    width: 90%;
+    background-color: #5763a5;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .inner-card-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .head-card-3 {
+    font-size: 15px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+  }
+
+  .para-card-3 {
+    height: 20px;
+    width: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  .double-inner-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-3-search {
+    height: 25px;
+    outline: none;
+  }
+
+  .card-3-butt {
+    height: 23px;
+    width: 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 0;
+  }
+
+  .card-3-img-2 {
+    width: 15px;
+  }
+
+  .horizontal {
+    color: white;
+    font-size: 1px;
+  }
+
+  .card-2-head-1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Roboto';
+    margin-left: 1px;
+  }
+
+  .card-2-img-1 {
+    width: 16px;
+  }
+
+  .card-2-cont-1 {
+    height: 20px;
+    width: 30px;
+    background-color: #f8fafc;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #94a3b8;
+  }
+
+  .inner-card-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .website {
+    height: 20px;
+    width: 150px;
+    background-color: #f8fafc;
+    outline: none;
+    border: 0;
+  }
+
+  .card-2-butt {
+    height: 25px;
+    width: 80px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    font-weight: 'Roboto';
+    color: white;
+    border: 0;
+  }
+
+  .card-2-butt-cont {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 140px;
+    margin-top: 20px;
+  }
+
+  .l-img {
+    width: 150px;
+  }
+
+  .card-3-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .l-3-head {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: white;
+    margin-left: 10px;
+  }
+
+  .n-pass {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .checkbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .checkbox {
+    color: white;
+    font-family: 'Roboto';
+  }
+}
